@@ -22,6 +22,7 @@
 		AA5CB7F620FF82DA00E93982 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA5CB7F920FF82DA00E93982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA5CB7FB20FF82DA00E93982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA5CB80220FF83B500E93982 /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = System/Library/Frameworks/Vision.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 			children = (
 				AA5CB7EE20FF82D900E93982 /* vision */,
 				AA5CB7ED20FF82D900E93982 /* Products */,
+				AA5CB80120FF83B500E93982 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +64,14 @@
 				AA5CB7FB20FF82DA00E93982 /* Info.plist */,
 			);
 			path = vision;
+			sourceTree = "<group>";
+		};
+		AA5CB80120FF83B500E93982 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA5CB80220FF83B500E93982 /* Vision.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
